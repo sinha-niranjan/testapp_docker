@@ -10,9 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>This is just a testing app for learning Docker . {count} </p>
 
-        <a className="App-link" onClick={() => setCount((prev) => prev + 1)}>
-          increase
-        </a>
+        <button onClick={() => setCount((prev) => prev + 1)}>increase</button>
       </header>
     </div>
   );
